@@ -1,0 +1,288 @@
+.principal {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+  padding-top: 100px;
+}
+
+.text1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+}
+
+.text2 {
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0 auto;
+}
+
+.principal-btn {
+  background-color: #8c30f5;
+  color: white;
+  width: 196px;
+  height: 62px;
+  top: 308px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 32px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.principal-img-section {
+  margin: 0px -150px 0px 0px;
+  position: relative;
+}
+.orange-circle {
+  position: absolute;
+  background-color: #ffc278;
+  width: 5rem;
+  height: 5rem;
+  right: 587px;
+  top: 170px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.purple-circle {
+  width: 46rem;
+  height: 46rem;
+  position: absolute;
+  background-color: #8c30f5;
+  border-radius: 50%;
+  top: -20rem;
+  opacity: 0.5;
+  z-index: -1;
+  left: 5vw;
+}
+.blue-circle {
+  position: absolute;
+  background-color: turquoise;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  right: 19rem;
+  bottom: 0rem;
+}
+.text-benefic p {
+  font-size: 48px;
+  font-weight: bold;
+}
+.text-benefic {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.logo-text p {
+  font-weight: bold;
+}
+.tipos-beneficios {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.father-bene {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.client-title {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 15px;
+}
+
+.client-parr {
+  text-align: center;
+  font-size: 18px;
+}
+
+.cajas-client {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+}
+.father-client {
+  background: #f4f5f7;
+}
+.text-client {
+  background: #fff;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 53px 5px 53px 5px;
+}
+.father-img-client {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+  justify-content: center;
+  align-items: center;
+}
+.img-clint p {
+  text-align: center;
+}
+.img-clint {
+  margin: 0 auto;
+}
+.img-clint img {
+  margin: auto;
+  padding-top: 25px;
+  display: block;
+}
+
+.img-slider {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  cursor: pointer;
+  height: 80px;
+}
+.img-bene {
+  margin: 0px 20px 0px 0px;
+}
+.number {
+  background-color: #8c30f5;
+  height: 200px;
+  z-index: -1;
+}
+.father-number {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+  text-align: center;
+  border: 1px solid #ffff;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  left: 0%;
+  top: 50%;
+  height: 240px;
+  box-shadow: 0px 0px 20px;
+}
+.number-img {
+  margin: 15px 50px 0px 50px;
+}
+
+.title-number p {
+  font-size: 48px;
+  color: #8c30f5;
+  font-weight: bold;
+  margin: 16px 0px 0px 0px;
+}
+.subtitle-number {
+  font-size: 18px;
+}
+.father-imgs {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+  padding-top: 300px;
+}
+.father-img-global {
+  display: flex;
+  margin: auto;
+  max-width: 980px;
+  margin-top: 18rem;
+  flex-direction: row;
+}
+.father-img-vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  justify-content: center;
+}
+.group-img img {
+  width: 100%;
+}
+.father-img {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.father-imgs2 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+}
+.chico {
+  margin-top: auto;
+}
+.gorra {
+  margin-right: 1rem;
+}
+.ajedre {
+  margin: 0px 15px 0px 0px;
+}
+
+.father-headline {
+  display: flex;
+  padding-top: 20px;
+}
+.father-global {
+  margin: -215px 0px 0px 44px;
+}
+p.title-tex {
+  font-size: 40px;
+  font-weight: bold;
+}
+.headline-img img {
+  margin: 0px 16px 0px 0px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+@media (max-width: 980px) {
+  .purple-circle {
+    width: 40rem;
+    height: 40rem;
+    top: -19rem;
+    left: 0rem;
+  }
+  .principal-img {
+    width: 29rem;
+    left: -3rem;
+    position: relative;
+    z-index: 1;
+  }
+  .orange-circle {
+    right: 27rem;
+  }
+  .blue-circle {
+    bottom: -1rem;
+  }
+  .principal-columna {
+    padding-left: 3rem;
+    padding-right: 2.5rem;
+  }
+  .text1 {
+    font-size: 2.5rem;
+  }
+  .text-benefic {
+    padding-left: 2rem;
+  }
+  .text-benefic p {
+    font-size: 2.5rem;
+  }
+  .father-bene {
+    max-width: 92vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .title-bene p {
+    margin: 0rem;
+  }
+  .client-title p {
+    font-size: 2.5rem;
+  }
+  .cajas-client {
+    max-width: 100vw;
+  }
+  .number-img {
+    margin: 15px auto;
+  }
+}
