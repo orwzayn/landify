@@ -1,0 +1,29 @@
+root {
+  --theme-color: white;
+  --secundary-color: black;
+  --text-color-inverse: white;
+  --text-color: black;
+  --text-color-foot: white;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--theme-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.text-medium-label {
+  font-weight: 100;
+}
+.text-strom-label {
+  font-weight: 600;
+}

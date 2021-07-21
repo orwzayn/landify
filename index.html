@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Koombea</title>
+    <link  rel="icon"   href="img/logo-kombe.svg" type="image/png" />
+    <title>Landify</title>
     <script src="https://use.fontawesome.com/502b7294a9.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:display=swap" rel="stylesheet">
-    <link
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" /> 
     <link rel="stylesheet" href="css/nav-menu.css" />
-    <link rel="stylesheet" href="Css/principal-linea.css">
-    <link rel="stylesheet" href="Css/slider.css">
+    <link rel="stylesheet" href="css/principal-linea.css" />
+    <link rel="stylesheet" href="css/slider.css">
     <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
-  <body>
     <header class="topheader">
       <nav class="topnav">
         <button class="open-menu" aria-label="Abrir menú">
@@ -41,10 +42,10 @@
             <button class="close-menu" aria-label="Cerrar menú">
             <img src="img/close_black_24dp.svg" alt="cerrar menú" />
              </button>
-            <li><img src="img/ig.svg" alt="inst"/></li>
-            <li><img src="img/nav.svg" alt="inst"/></li>
-            <li><img src="img/twi.svg" alt="inst"/></li>
-            <li><img src="img/you.svg" alt="inst"/></li>
+             <li><a href="#"><img src="img/ig.svg" alt="inst"/></a></li>
+             <li><a href="#"><img src="img/nav.svg" alt="nav"/></a></li>
+             <li><a href="#"><img src="img/twi.svg" alt="twi"/></a></li>
+             <li><a href="#"><img src="img/you.svg" alt="you"/></a></li>
             </ul>      
             </div>
       </nav>
@@ -61,7 +62,6 @@
       </div>
         <div class="principal-img-section">
           <div class="purple-circle">
-            algo
           </div>
           <img class="principal-img" src="img/principal.svg" alt="landing page">
           <div class="orange-circle">
@@ -73,15 +73,15 @@
     <div class="text-logos">
       <p class="text-container">Trusted by our beloved clients</p>
       <ul class="list-logos">
-        <li><img src="img/icons1.svg" alt="inst"/></li>
-        <li><img src="img/logo2.svg" alt="inst"/></li>
+        <li class="mobile-none"><img src="img/icons1.svg" alt="inst"/></li>
+        <li class="mobile-none"><img src="img/logo2.svg" alt="inst"/></li>
         <li><img src="img/logo3.svg" alt="inst"/></li>
         <li><img src="img/logo4.svg" alt="inst"/></li>
         <li><img src="img/logo5.svg" alt="inst"/></li>
         <li><img src="img/logo6.svg" alt="inst"/></li>
         <li><img src="img/logo7.svg" alt="inst"/></li>
-        <li><img src="img/logo8.svg" alt="inst"/></li>
-        <li><img src="img/logo9.svg" alt="inst"/></li>
+        <li class="mobile-none"><img src="img/logo8.svg" alt="inst"/></li>
+        <li class="mobile-none"><img src="img/logo9.svg" alt="inst"/></li>
     </ul>
     </div>
     <div class="text-benefic">
@@ -90,12 +90,15 @@
       </p>
     </div>
     <div class="father-bene">
-    <div class="tipos-beneficios">
+     <div class="tipos-beneficios">
       <div class="img-bene">
         <img src="img/page-zone.svg" alt="inst"/>
       </div>
       <div class="title-bene">
-        <p><strong>Time zones ain’t no thing</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+        <p><strong>Time zones ain’t no thing</strong></p>
+        <div class="sub-bene">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+        </div>
         </div>
     </div>
     <div class="tipos-beneficios">
@@ -103,30 +106,37 @@
         <img src="img/full-scream.svg" alt="inst"/>
       </div>
       <div class="title-bene">
-        <p><strong>Full spectrum of services</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+        <p><strong>Full spectrum of services</strong></p>
+        <div class="sub-bene">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
         </div>
+      </div>
     </div>
   </div>
-
   <div class="father-bene">
     <div class="tipos-beneficios">
-      <div class="img-bene">
-        <img src="img/imposible-wor.svg" alt="inst"/>
-      </div>
-      <div class="title-bene">
-        <p><strong>Impossible? We’re on it</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-        </div>
-    </div>
-    <div class="tipos-beneficios">
-      <div class="img-bene">
-        <img src="img/flexible.svg" alt="inst"/>
-      </div>
-      <div class="title-bene">
-        <p><strong>Flexible work terms</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-        </div>
-    </div>
-  </div>
-
+     <div class="img-bene">
+       <img src="img/page-zone.svg" alt="inst"/>
+     </div>
+     <div class="title-bene">
+       <p><strong>Time zones ain’t no thing</strong></p>
+       <div class="sub-bene">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+       </div>
+       </div>
+   </div>
+   <div class="tipos-beneficios">
+     <div class="img-bene">
+       <img src="img/full-scream.svg" alt="inst"/>
+     </div>
+     <div class="title-bene">
+       <p><strong>Full spectrum of services</strong></p>
+       <div class="sub-bene">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+       </div>
+     </div>
+   </div>
+ </div>
 <div class="father-client">
 <div class="client-title">
   <p>Our Clients Speak</p>
@@ -134,39 +144,116 @@
 <div class="client-parr">
   <p>We have been working with clients around the world</p>
 </div>
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="cajas-client">
+            <div class="caja-white">
+             <p class="text-client"> Collaborating </p>
+             <p class="flecha-img"> ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+            </div> 
+            <div class="caja-white">
+              <p class="text-client">Efficient Collaborating</p>
+              <p class="flecha-img">ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+            </div>
+            <div class="caja-white">
+              <p class="text-client">Efficient Collaborating </p>
+              <p class="flecha-img">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+             </div>
+            </div>
 
-<div class="cajas-client">
-  <div class="text-client">
-   <p class="strong">Collaborating</p> <p>ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
-   <div class="flecha-img">
-   </div>
-  </div>
-  <div class="text-client">
-    <p><strong>Efficient Collaborating</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
-   </div>
-   <div class="text-client">
-    <p><strong>Efficient Collaborating</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
-   </div>
-</div>
+            <div class="father-img-client">
+              <div class="img-clint">
+                <img src="img/jane.svg" alt=""/>
+                <p>Jane Cooper</p>
+                <p class="text-jane">CEO at ABC Corporation</p>
+              </div>
 
-<div class="father-img-client">
-<div class="img-clint">
-  <img src="img/jane.svg" alt=""/>
-  <p><strong>Jane Cooper</strong><br>CEO at ABC Corporation</p>
-</div>
-<div class="img-clint">
-  <img src="img/jane.svg" alt=""/>
-  <p><strong>Jane Cooper</strong><br>CEO at ABC Corporation</p>
-</div>
-<div class="img-clint">
-  <img src="img/jane.svg" alt=""/>
-  <p><strong>Jane Cooper</strong><br>CEO at ABC Corporation</p>
-</div>
-</div>
-<div class="img-slider">
-  <img src="img/puntos-slider.png" alt=""/>
-</div>
-</div>
+              <div class="img-clint">
+                <img src="img/jane.svg" alt=""/>
+                <p>Jane Cooper</p>
+                <p class="text-jane">CEO at ABC Corporation</p>
+              </div>
+
+              <div class="img-clint">
+                <img src="img/jane.svg" alt=""/>
+                <p>Jane Cooper</p>
+                <p class="text-jane">CEO at ABC Corporation</p>
+              </div>
+              </div>
+        </div>
+        <div class="swiper-slide">        
+          <div class="cajas-client">
+          <div class="caja-white">
+           <p class="text-client"> Collaborating </p>
+           <p class="flecha-img"> ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+          </div> 
+          <div class="caja-white">
+            <p class="text-client">Efficient Collaborating</p>
+            <p class="flecha-img">ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+          </div>
+          <div class="caja-white">
+            <p class="text-client">Efficient Collaborating </p>
+            <p class="flecha-img">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+           </div>
+          </div>
+
+          <div class="father-img-client">
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+            </div></div>
+        <div class="swiper-slide">        
+          <div class="cajas-client">
+          <div class="caja-white">
+           <p class="text-client"> Collaborating </p>
+           <p class="flecha-img"> ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+          </div> 
+          <div class="caja-white">
+            <p class="text-client">Efficient Collaborating</p>
+            <p class="flecha-img">ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+          </div>
+          <div class="caja-white">
+            <p class="text-client">Efficient Collaborating </p>
+            <p class="flecha-img">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem</p>
+           </div>
+          </div>
+
+          <div class="father-img-client">
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+            <div class="img-clint">
+              <img src="img/jane.svg" alt=""/>
+              <p>Jane Cooper</p>
+              <p class="text-jane">CEO at ABC Corporation</p>
+            </div>
+            </div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
 <div class="number">
   <div class="father-number">
     <div class="number-img">
@@ -234,7 +321,8 @@
       <img src="img/page-zone.svg" alt=""/>
       </div>
       <div class="text-headline">
-        <p><strong>Headline</strong><br>One line description</p>
+        <p><strong>Headline</strong></p>
+        <p class="flecha-img">One line description</p>
       </div>
     </div>
     <div class="father-headline">
@@ -242,67 +330,78 @@
       <img src="img/flexible.svg" alt=""/>
       </div>
       <div class="text-headline">
-        <p><strong>Headline</strong><br>One line description</p>
+        <p><strong>Headline</strong></p>
+        <p class="flecha-img">One line description</p>
       </div>
     </div>
-    <button class="principal-btn">
+    <button class="secund-btn">
       Buy now
     </button>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="father-img-global">
-<div class="father-imgs">
-  <div class="gorra">
-   <img src="img/gorra.svg" alt=""/>
-  </div>
-  <div class="chico">
-    <img src="img/chico.svg" alt=""/>
-  </div>
-</div>
-<div class="father-imgs2">
-  <div class="ajedre">
-  <img src="img/ajedrez.svg" alt=""/>
-  </div>
-  <div class="coff">
-    <img src="img/coffe.svg" alt=""/>
-  </div>
-  <div class="father-global">
-  <div class="seccion2-text-fat">
-    <p class="title-tex">Headline</p>
-    <p class="parraf-tex">Specially developed to help restore a more youthful appearance with improved radiance and bounce.</p>
-  </div>
-   <div class="father-headline">
-    <div class="headline-img">
-    <img src="img/page-zone.svg" alt=""/>
+<div class="back-proyect">
+  <div class="general-proyect">
+  <div class="title-proyect">
+  <p class="title-proyect-new">Manage your projects<br>from your mobile</p>
+  <div class="parr-proyect">
+    <p>Download the app to manage your projects, keep track of the <br>progress and complete tasks without procastinating. Stay on<br> track and complete on time!</p>
     </div>
-    <div class="text-headline">
-      <p><strong>Headline</strong><br>One line description</p>
+    <div class="img-tex-proyec">
+      <p>Get the App</p>
+      <a href="#"><img src="img/playstore.svg" alt=""/> </a>
+      <a href="#"><img src="img/appstore.svg" alt=""/> </a>
     </div>
   </div>
-  <div class="father-headline">
-    <div class="headline-img">
-    <img src="img/flexible.svg" alt=""/>
+  <div class="celular-proyec">
+    <div class="celular-proyec2">
+      <img src="img/celular.svg" alt=""/>
     </div>
-    <div class="text-headline">
-      <p><strong>Headline</strong><br>One line description</p>
+    <div class="celular-proyec3">
+      <img src="img/celular2.svg" alt=""/>
     </div>
   </div>
-  <button class="principal-btn">
-    Buy now
-  </button>
-</div>
-</div>
-</div> -->
+  </div>
+  </div>
 </body>
+<footer>
+  <div class="father-black">
+    <ul class="col-1">
+      <li class="title-black">company</li>
+      <li class="parr-black">About Us</li>
+      <li class="parr-black">Blog</li>
+      <li class="parr-black">Careers</li>
+      <li class="parr-black">Contact Us</li>
+    </ul>
+    <ul class="col-2">
+      <li class="title-black">Support</li>
+      <li class="parr-black">Help Center</li>
+      <li class="parr-black">Safaty Center</li>
+      <li class="parr-black">Community Guidelines</li>
+    </ul>
+    <ul class="col-3">
+      <li class="title-black">Legal</li>
+      <li class="parr-black">Cookies Policy</li>
+      <li class="parr-black">Privacy Policy </li>
+      <li class="parr-black">Terms of Service</li>
+      <li class="parr-black">Law Enforcement</li>
+    </ul>
+    <ul class="col-4">
+      <li class="title-black">Install App</li>
+      <li> <a href="#"><img src="img/playstore.svg" alt=""/> </a></li>
+      <li> <a href="#"><img src="img/appstore.svg" alt=""/> </a></li>
+    </ul>
+  </div>
+</footer>
+<div class="linea-blanca"></div>
+<div class="father-redes">
+<div class="foot-redes">
+  <p class="text-foot">© 2021 Landify UI Kit. All rights reserved</p>
+    <ul class="menu2">
+     <li><a href="#"><img src="img/ig-icon.svg" alt="inst"/></a></li>
+     <li><a href="#"><img src="img/nav-icon.svg" alt="nav"/></a></li>
+     <li><a href="#"><img src="img/twi-icon.svg" alt="twi"/></a></li>
+     <li><a href="#"><img src="img/you-icon.svg" alt="you"/></a></li>
+    </ul> 
+</div>
+</div>
 </html>
